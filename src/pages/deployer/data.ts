@@ -6,7 +6,7 @@ const onchainFormSpec = [
     label: "Jetton Name",
     description: "Your project unabbreviated name with spaces (usually 1-3 words).",
     type: "text",
-    default: "Bitcoin Cash",
+    default: "Bitcoin",
     required: true,
     errorMessage: "Name required",
   },
@@ -15,7 +15,7 @@ const onchainFormSpec = [
     label: "Jetton Symbol",
     description: "Currency symbol appearing in balance (usually 3-5 uppercase chars).",
     type: "text",
-    default: "BCH",
+    default: "BTC",
     required: true,
     errorMessage: "Symbol required",
   },
@@ -44,7 +44,7 @@ const onchainFormSpec = [
     label: "Description",
     description: "Optional sentence explaining about your project.",
     type: "string",
-    default: "Low fee peer-to-peer electronic cash alternative to Bitcoin",
+    default: "Peer-to-peer electronic cash system",
   },
 
   {
