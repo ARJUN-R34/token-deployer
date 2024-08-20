@@ -64,7 +64,7 @@ export const EditLogoPopup = ({
           {tokenImage.description}{" "}
           {showExample && (
             <span
-              onClick={() => setTempUrl("https://bitcoincash-example.github.io/website/logo.png")}
+              onClick={() => setTempUrl("https://s2.coinmarketcap.com/static/img/coins/128x128/1.png")}
               style={{ fontWeight: 700, cursor: "pointer" }}>
               example
             </span>
