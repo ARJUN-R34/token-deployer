@@ -123,9 +123,6 @@ function DeployerPage() {
                   inputs={formSpec}
                 />
               </SubHeadingWrapper>
-              <Box sx={{ flex: 4 }}>
-                <Description />
-              </Box>
             </FormWrapper>
           </Box>
         </Fade>
