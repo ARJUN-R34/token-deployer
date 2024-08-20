@@ -54,7 +54,7 @@ const onchainFormSpec = [
     type: "string",
     required: false,
     validate: checkImageURL,
-    default: "https://bitcoincash-example.github.io/website/logo.png",
+    default: "https://s2.coinmarketcap.com/static/img/coins/128x128/1.png",
   },
 ];
 
