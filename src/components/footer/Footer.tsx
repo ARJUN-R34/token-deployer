@@ -31,46 +31,13 @@ export const Footer = () => {
         </Box>
         <SocialsContent>
           <HoverableIcon
-            iconUrl={telegram}
-            hoveredIconUrl={telegramHovered}
-            link="https://t.me/+YDnoBue1Dz81ZTMy"
-          />
-          <HoverableIcon
             iconUrl={github}
             hoveredIconUrl={githubHovered}
-            link="https://github.com/ton-blockchain/minter"
+            link="https://github.com/ARJUN-R34/token-deployer"
           />
         </SocialsContent>
       </SocialsWrapper>
       <Separator />
-      <CredentialsWrapper>
-        <FooterTextBoxLeft>
-          <Typography variant="body2">© 2023 TON Foundation</Typography>
-        </FooterTextBoxLeft>
-        <ContributedWrapper>
-          <Typography variant="body2" sx={{ display: "flex", alignItems: "center" }}>
-            Contributed with
-            <CenteringWrapper mx={0.4}>
-              <img src={heart} alt="Orbs logo" width={12} height={12} />
-            </CenteringWrapper>
-            by
-            <CenteringWrapper mx={0.4}>
-              <img src={orbsLogo} alt="Orbs logo" width={12} height={12} />
-            </CenteringWrapper>
-            <FooterLink
-              sx={{ color: "#5E75E8", display: "flex", alignItems: "center" }}
-              target="_blank"
-              href="https://orbs.com/">
-              Orbs
-            </FooterLink>
-          </Typography>
-        </ContributedWrapper>
-        <FooterTextBoxRight>
-          <FooterLink target="_blank" href="https://t.me/+YDnoBue1Dz81ZTMy">
-            <Typography variant="body2">Support</Typography>
-          </FooterLink>
-        </FooterTextBoxRight>
-      </CredentialsWrapper>
       <Outlet />
     </FooterWrapper>
   );
